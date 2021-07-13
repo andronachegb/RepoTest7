@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ResponseMapCatalog version="8.6.0.202107090704">
+    <mapCatalog>
+        <item name="response_maos/rmp.ffrm">
+            <applicability>
+                <application>
+                    <item>com.fnfr.itest.applications.webservices.restful</item>
+                </application>
+            </applicability>
+        </item>
+    </mapCatalog>
+</ResponseMapCatalog>

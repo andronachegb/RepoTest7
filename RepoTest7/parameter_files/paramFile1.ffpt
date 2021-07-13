@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ParameterTree version="8.6.0.202107090704">
+    <parameters escape="true">
+        <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
+            <projName>RepoTest7</projName>
+        </parameters>
+    </parameters>
+</ParameterTree>

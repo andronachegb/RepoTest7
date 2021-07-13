@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<TestCaseCatalog version="8.6.0.202107090704">
+    <testCaseCatalog>
+        <item name="session_profiles/qcLib1.fftc">
+            <tcDescriptor version="8.6.0.202107090704">
+                <general>
+                    <sessionClass includeTestCase="true" sessionType="project://RepoTest7/session_profiles/REST.ffsp"/>
+                    <language>Python</language>
+                </general>
+                <procedures>
+                    <item name="proc1" isPublic="true">
+                        <arguments>
+                            <item name="argm">
+                                <defaultValue>NULL</defaultValue>
+                                <isMandatory>true</isMandatory>
+                            </item>
+                        </arguments>
+                    </item>
+                    <item name="proc2" isPublic="true">
+                        <arguments>
+                            <item name="argm">
+                                <defaultValue>NULL</defaultValue>
+                                <isMandatory>true</isMandatory>
+                            </item>
+                        </arguments>
+                    </item>
+                    <item name="proc3" isPublic="true">
+                        <arguments>
+                            <item name="argm">
+                                <defaultValue>NULL</defaultValue>
+                                <isMandatory>true</isMandatory>
+                            </item>
+                        </arguments>
+                    </item>
+                </procedures>
+            </tcDescriptor>
+        </item>
+    </testCaseCatalog>
+</TestCaseCatalog>

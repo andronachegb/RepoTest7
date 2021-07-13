@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<SessionTemplate version="8.6.0.202107090704">
+    <baseApplication>com.fnfr.itest.applications.webservices.restful</baseApplication>
+    <sessionProperties type="com.fnfr.svt.adapter.automation.tools.common.documents.TransferableDocumentObject" transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.restful.RESTfulSessionProperties" url="https://vel-alin85s.spirenteng.com" url.inherit="false">
+        <authentication transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.AuthenticationProperties" authenticationType="Basic" authenticationType.inherit="false" user="spirent" user.inherit="false" password.masked="true" password="SrqvrrOjrgE=" password.inherit="false" acceptAllCertificates="true" acceptAllCertificates.inherit="false"/>
+    </sessionProperties>
+    <responseLibrary inherit="false">project://RepoTest7/</responseLibrary>
+    <formMapLibrary inherit="false">project://RepoTest7/</formMapLibrary>
+    <sessionClassTestCase inherit="false">project://RepoTest7/session_profiles/qcLib1.fftc</sessionClassTestCase>
+    <isReferenceProfile>true</isReferenceProfile>
+    <language>Python</language>
+</SessionTemplate>
