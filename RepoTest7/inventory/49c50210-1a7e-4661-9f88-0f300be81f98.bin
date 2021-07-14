@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>Top - Git4</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="32ac1a1b-3517-47e0-91f4-c0453bcc227e" id="i79d6f01c-c51d-4635-86b6-2940c13633be" shared="true" type="device">
+<property isimportant="false" name="name">Abs1-Git4</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=32ac1a1b-3517-47e0-91f4-c0453bcc227e</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[T1-Git4]</extensions>
+<boundary height="100" width="100" x="367" y="214"/>
+<property name="inventoryName"/>
+</resource>
+<resource guid="330b55ec-5210-433a-8911-dcf2a3acdd79" id="i58bff3fd-5cf7-48c1-8e34-abe6c975c148" shared="true" type="device">
+<property isimportant="false" name="name">Abs2-Git4</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=330b55ec-5210-433a-8911-dcf2a3acdd79</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[T2-Git4]</extensions>
+<boundary height="100" width="100" x="336" y="357"/>
+<property name="inventoryName"/>
+</resource>
+<resource guid="e27aa0a8-78a8-4bd0-97f3-86ebc43c902c" id="i668c5c0c-ef71-46db-9bff-6c2cf24b3565" shared="true" type="device">
+<property isimportant="false" name="name">T1-Git4</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=e27aa0a8-78a8-4bd0-97f3-86ebc43c902c</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[T1-Git4]</extensions>
+<boundary height="100" width="100" x="554" y="206"/>
+<property name="inventoryName"/>
+</resource>
+<resource guid="cf057c02-5957-462d-8c23-2b31d7f0e0f4" id="ie664f2a1-68b2-4ac8-9f61-e10657924dc7" shared="true" type="device">
+<property isimportant="false" name="name">T2-Git4</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=cf057c02-5957-462d-8c23-2b31d7f0e0f4</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[T2-Git4]</extensions>
+<boundary height="100" width="100" x="496" y="350"/>
+<property name="inventoryName"/>
+</resource>
+<resource guid="fd574751-0dda-4da1-9081-34a576a9877d" id="i93404955-17c0-422b-bcc7-4f95488839f9" shared="true" type="device">
+<property isimportant="false" name="name">Orch2-Git4</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=fd574751-0dda-4da1-9081-34a576a9877d</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property isimportant="false" name="templateId">cf057c02-5957-462d-8c23-2b31d7f0e0f4</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<boundary height="100" width="100" x="719" y="189.99999999999997"/>
+</resource>
+<resource guid="f524257a-41ad-48e0-9c3c-0f9d36d95bb2" id="i01fde26f-44a7-413d-b336-e25c6cd1acb6" shared="true" type="device">
+<property isimportant="false" name="name">Orch1-Git4</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=f524257a-41ad-48e0-9c3c-0f9d36d95bb2</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property isimportant="false" name="templateId">e27aa0a8-78a8-4bd0-97f3-86ebc43c902c</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<boundary height="100" width="100" x="674" y="391"/>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>
